@@ -232,6 +232,59 @@ body {
 
 /*-------------------------------------------------------*/
 /*----------------------------------------*/
+/*--------контент Видео главной страницы ------------*/
+
+
+.content {
+    max-width: 100%;
+    /*Ширина контента*/
+    margin: 0px auto;
+    box-sizing: content-box;
+}
+
+.content__clips {
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.content__clips img {
+    max-width: 50%;
+    z-index: 1;
+}
+
+
+
+.clips__text {
+    margin-top: -14%;
+}
+
+
+.clips__text p {
+    font-family: 'Caveat', cursive;
+    color: #efeeec;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-transform: uppercase;
+    z-index: 2;
+}
+
+.video {
+    margin-top: 10px;
+}
+
+.video iframe {
+    width: 430px;
+    height: 250px;
+}
+
+
+
+
+
+/*-------------------------------------------------------*/
+/*----------------------------------------*/
 /*--------контент плейлист страницы ------------*/
 
 .poster__playlist {
@@ -613,6 +666,55 @@ body {
 
 
 
+
+    /*-------------------------------------------------------*/
+    /*----------------------------------------*/
+    /*--------контент Видео главной страницы ------------*/
+
+
+    .content {
+        max-width: 100%;
+        /*Ширина контента*/
+        margin: 0px auto;
+        box-sizing: content-box;
+    }
+
+    .content__clips {
+        margin-top: 80px;
+        text-align: center;
+
+    }
+
+    .content__clips img {
+        max-width: 50%;
+        z-index: 1;
+    }
+
+
+
+    .clips__text {
+        margin-top: -14%;
+    }
+
+
+    .clips__text p {
+        font-family: 'Caveat', cursive;
+        color: #efeeec;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        text-transform: uppercase;
+        z-index: 2;
+    }
+
+    .video {
+        margin-top: 10px;
+    }
+
+    .video iframe {
+        width: 230px;
+        height: 150px;
+    }
 
 
 
